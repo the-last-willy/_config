@@ -13,3 +13,7 @@ histedit =
 # `git rebase` equivalent.
 # See `https://www.mercurial-scm.org/wiki/RebaseExtension`.
 rebase =
+
+# `git reset HEAD~N` equivalent.
+# See `https://www.mercurial-scm.org/wiki/StripExtension`.
+strip =
