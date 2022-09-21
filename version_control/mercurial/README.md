@@ -1,6 +1,6 @@
 # Cheatsheet
 
-Interactive staging :
+Interactive staging and commit :
 ```
 hg commit -i
 ```
