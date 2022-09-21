@@ -1,6 +1,6 @@
 # Config
 
-See [hgrc](version_control/mercurial/hgrc) file.
+See [hgrc](/version_control/mercurial/hgrc) file.
 
 # Cheatsheet
 
