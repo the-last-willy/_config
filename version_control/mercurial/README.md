@@ -8,3 +8,8 @@ Interactive staging and commit :
 ```
 hg commit -i
 ```
+
+Undo last commit and keep changes :
+```
+hg strip --keep .
+```
