@@ -1,0 +1,14 @@
+[ui]
+
+# `git add --interactive` equivalent.
+interface = curses
+
+[extensions]
+
+# `git rebase --interactive` equivalent.
+# See `https://www.mercurial-scm.org/wiki/HisteditExtension`.
+histedit =
+
+# `git rebase` equivalent.
+# See `https://www.mercurial-scm.org/wiki/RebaseExtension`.
+rebase =
