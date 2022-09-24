@@ -1,5 +1,10 @@
 This page provides download links for software I regurlarly need.
 
+- [Discord](https://discord.com/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+- [Spotify](https://www.spotify.com/us/download/windows/)
+- [Steam](https://store.steampowered.com/about/)
+
 # Development
 
 - [Git](https://git-scm.com/downloads)
