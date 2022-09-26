@@ -9,7 +9,7 @@ Interactive staging and commit :
 hg commit -i
 ```
 
-Ammend last commit :
+Amend last commit :
 ```
 hg commit --amend
 ```
