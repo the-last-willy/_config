@@ -9,7 +9,12 @@ Interactive staging and commit :
 hg commit -i
 ```
 
+Ammend last commit :
+```
+hg commit --amend
+```
+
 Undo last commit and keep changes :
 ```
-hg strip --keep .
+hg strip --keep --rev -1
 ```
