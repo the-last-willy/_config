@@ -9,6 +9,9 @@
 
 [extensions]
 
+# See `https://www.mercurial-scm.org/wiki/ExtdiffExtension`.
+extdiff =
+
 # `git rebase --interactive` equivalent.
 # See `https://www.mercurial-scm.org/wiki/HisteditExtension`.
 histedit =
@@ -24,15 +27,20 @@ strip =
 [merge-tools]
 
 # Disables `kdiff3` because I don't like it.
-kdiff3.disabled = true
+kdiff3.disabled = yes
 
 # Adds `vscode` as a merge tool.
-vscode.args       = --merge $local $other $base $output
+
+vscode.args = --merge $local $other $base $output --reuse-window --wait
 vscode.executable = code
-vscode.priority   = 1
+vscode.priority = 1
+
+# TortoiseHG specifics.
+vscode.diffargs = --diff $parent $child --reuse-window --wait
 
 [ui]
 
 # For an interactive `hg commit --interactive` cmd interface.
 # See `https://www.mercurial-scm.org/wiki/CrecordExtension`.
 interface = curses
+merge = vscode
