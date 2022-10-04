@@ -36,6 +36,7 @@ vscode.executable = code
 vscode.priority = 1
 
 # TortoiseHG specifics.
+vscode.diff3args = --merge $parent1 $child $parent2 $output --reuse-window --wait
 vscode.diffargs = --diff $parent $child --reuse-window --wait
 
 [ui]
