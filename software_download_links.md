@@ -32,3 +32,4 @@ This page provides download links for software I regurlarly need.
 
 - [Everything](https://www.voidtools.com/)
 - [PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/)
+- [WizTree](https://diskanalyzer.com/)
