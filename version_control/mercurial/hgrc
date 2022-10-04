@@ -1,5 +1,5 @@
-### Global configuration.
-### On Windows : "%USERPROFILE%\mercurial.ini"
+# Global configuration.
+# On Windows : "%USERPROFILE%\mercurial.ini"
 
 [extensions]
 
@@ -14,6 +14,16 @@ rebase =
 # `git reset` equivalent.
 # See `https://www.mercurial-scm.org/wiki/StripExtension`.
 strip =
+
+[merge-tools]
+
+# Disables `kdiff3` because I don't like it.
+kdiff3.disabled = true
+
+# Adds `vscode` as a merge tool.
+vscode.args       = --merge $local $other $base $output
+vscode.executable = code
+vscode.priority   = 1
 
 [ui]
 
