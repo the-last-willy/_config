@@ -1,6 +1,12 @@
 # Global configuration.
 # On Windows : "%USERPROFILE%\mercurial.ini"
 
+### User settings.
+
+# ...
+
+### Tool settings.
+
 [extensions]
 
 # `git rebase --interactive` equivalent.
