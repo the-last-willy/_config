@@ -1,6 +1,8 @@
 .\setup_common.bat
 
+winget install -e --id Amazon.AWSCLI
 winget install -e --id BaldurKarlsson.RenderDoc
+winget install -e --id DimitriVanHeesch.Doxygen
 winget install -e --id Git.Git
 winget install -e --id JetBrains.CLion
 winget install -e --id JFrog.Conan
