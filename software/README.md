@@ -2,6 +2,7 @@ This directory provides scripts for installing software I need.
 
 Profiles
 - Gaming
+- Modeling
 - Programming
 - Streaming
 
