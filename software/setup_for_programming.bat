@@ -5,6 +5,7 @@ winget install -e --id BaldurKarlsson.RenderDoc
 winget install -e --id DimitriVanHeesch.Doxygen
 winget install -e --id Git.Git
 winget install -e --id JetBrains.CLion
+winget install -e --id JetBrains.Toolbox
 winget install -e --id JFrog.Conan
 winget install -e --id Kitware.CMake
 winget install -e --id LLVM.LLVM
