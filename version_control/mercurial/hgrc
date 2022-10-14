@@ -41,7 +41,11 @@ vscode.diffargs = --diff $parent $child --reuse-window --wait
 
 [ui]
 
+# Windows, per-user ignore patterns.
+ignore = %USERPROFILE%\.hgignore
+
 # For an interactive `hg commit --interactive` cmd interface.
 # See `https://www.mercurial-scm.org/wiki/CrecordExtension`.
 interface = curses
+
 merge = vscode
